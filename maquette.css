@@ -4,7 +4,7 @@ html, body, header {
 
 
 header {
-    background: url(media/fit.jpg) no-repeat center fixed;
+    background: url(media/fit.jpg) no-repeat center;
     background-size: cover;
     height: 100%;
 }
@@ -43,3 +43,55 @@ header {
     text-align: center;
     text-shadow: 5px 5px 5px rgb(68, 68, 68);
 }
+
+.weight {
+    background: url(media/fit4.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.yellow {
+    background-color: rgba(220, 205, 43, 0.6);
+    display: inline-block;
+    width: 60%;
+    height: 40%;
+    padding: 5px;
+}
+
+.yellow p:nth-child(1) {
+    font-size: 3em;
+}
+
+.yellow p {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.yellow p:nth-child(4) {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {  }
+
+@media (min-width: 992px) and (max-width: 1199px) {  }
+
+@media (min-width: 768px) and (max-width: 991px) {  }
+
+@media (min-width: 576px) and (max-width: 767px) {  }
+
+@media (max-width: 575px) { 
+
+    .logo {
+        transform: scale(0.5, 0.5);
+    }
+    .menu {
+        font-size: 1.2em;
+    }
+
+    .nav .col-5 {
+        padding: 0;
+    }
+ }
+
+
