@@ -1,4 +1,38 @@
-.container-fluid {
-    background-color : black;
-    color: white;
+html, body {
+    height: 100%;
+}
+
+
+header {
+    background: url(media/fit.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.83);
+    height: 120px;
+}
+
+.logo {
+    height: 66px;
+    width: 134px;
+}
+
+.menu {
+    color: rgb(215, 51, 81);
+    font-size: 2em;
+}
+
+.menu a {
+    color: rgb(215, 51, 81);
+    text-decoration: none;
+    padding: 0px 8px 0px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.menu a:focus {
+    border: solid rgb(215, 51, 81) 5px;
+    height: 50px;
 }
