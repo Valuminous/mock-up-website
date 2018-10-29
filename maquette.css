@@ -1,4 +1,33 @@
-.container-fluid {
-    background-color : black;
+
+
+/* section produit */
+
+.separator {
+    background-color: white;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+}
+
+.favorite {
+    color: #d73351;
+
+}
+
+.font {
+    font-size: 67pt;
+    font-weight: bold;
+ text-shadow: 2px 6px 6px #7b7b7b;
+}
+
+.energy {
+    font-size: 27pt;
+    font-weight: bold;
+ 
+}
+.rectangle {
+    background-color: #d73351;
     color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
