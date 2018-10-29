@@ -1,4 +1,4 @@
-html, body {
+html, body, header {
     height: 100%;
 }
 
@@ -35,4 +35,11 @@ header {
 .menu a:focus {
     border: solid rgb(215, 51, 81) 5px;
     height: 50px;
+}
+
+.welcome {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(68, 68, 68);
 }
