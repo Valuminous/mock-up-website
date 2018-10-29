@@ -1,23 +1,21 @@
-
-
-/* section produit */
+/* section séparateurs */
 
 .separator {
     background-color: white;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: right;
+
 }
 
 .favorite {
     color: #d73351;
-    
+    text-align: right;
 }
 
 .font {
     font-size: 67pt;
     font-weight: bold;
- text-shadow: 5px 5px 5px #7b7b7b;
+    text-shadow: 5px 5px 5px #7b7b7b;
 
 }
 
@@ -26,8 +24,71 @@
     font-weight: bold;
 
 }
+
 .rectangle {
     background-color: #d73351;
     color: white;
-  text-align: left;
+    text-align: left;
+}
+
+/* section produit */
+
+.order {
+    background-image: url(media/fit3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.vk {
+    color: #d73351;
+    font-size: 98pt;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #7b7b7b;
+    text-align: center;
+}
+
+.lg-text {
+    color: white;
+    font-size: 42pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sm-text {
+    color: white;
+    font-size: 21pt;
+    font-weight: bold;
+    text-align: center;
+}
+.produit {
+    position: relative;
+}
+
+.bar1 {
+      position: absolute;
+     right: 8%;
+     top: 15%;
+     transform: rotate(-30deg);
+     max-width: 90%;
+     z-index: 1;
+ 
+}
+
+.bar2 {
+    position: absolute;
+    right: 1%;
+    top: 5%;
+    transform: rotate(15deg);
+    max-width: 90%;
+
+}
+.ordering {
+    color: white;
+    font-size: 35pt;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    border-color: white;
+  
 }
