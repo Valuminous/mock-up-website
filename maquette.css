@@ -2,11 +2,13 @@ html, body, header {
     height: 100%;
 }
 
+/* Header nav */
+
 
 header {
     background: url(media/fit.jpg) no-repeat center;
     background-size: cover;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .nav {
@@ -45,6 +47,8 @@ header {
     text-shadow: 5px 5px 5px rgb(68, 68, 68);
 }
 
+/* Présentation */
+
 .weight {
     background: url(media/fit4.jpg) no-repeat center;
     background-size: cover;
@@ -73,8 +77,58 @@ header {
     margin-bottom: 10px;
 }
 
+/* Formulaire */
+
+.formulaire .container {
+    width: 60%;
+    height: 100%;
+}
+
+.formulaire textarea {
+    height:210px;
+}
+
+.formulaire {
+    background: linear-gradient(rgba(88,86,92,0.72),rgba(88,86,92,0.72)), url(media/fit5.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.contact {
+    font-size: 2.8em;
+    color: white;
+}
+
+.input {
+    color: white;
+}
+
+.input label {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.input input, .input textarea, .input button {
+    background-color: rgba(0, 0, 0, 0);
+    border: solid white 3px;
+    color: white;
+    width: 100%;
+}
+
+.input input {
+    height: 45px;
+}
+
+.input button {
+    height: 50px;
+    width: 250px;
+    font-size: 1.3em;
+}
+
+/* Footer */
+
 .follow {
-    font-size: 2.5em;
+    font-size: 2.8em;
 }
 
 .copyright {
@@ -97,7 +151,15 @@ header {
 @media (min-width: 768px) and (max-width: 991px) { 
 
     .social .col-12 img {
-        transform: scale(1.6, 1.6);
+        transform: scale(1.8, 1.8);
+    }
+
+    .welcome {
+        padding: 0 20% 0 20%;
+    }
+
+    .formulaire .container {
+        width: 75%;
     }
 
  }
@@ -106,6 +168,14 @@ header {
 
     .social .col-12 img {
         transform: scale(1.6, 1.6);
+    }
+
+    .welcome {
+        padding: 0 20% 0 20%;
+    }
+
+    .formulaire .container {
+        width: 75%;
     }
 
  }
@@ -143,6 +213,30 @@ header {
 
     .nav {
         height: 70px;
+    }
+
+    .welcome {
+        padding: 0 15% 0 15%;
+        font-size: 4em;
+    }
+
+    .formulaire .container {
+        width: 90%;
+    }
+
+    .input textarea {
+        height: 120px;
+    }
+
+    .contact {
+        font-size: 2em;
+        color: white;
+    }
+
+    .input button {
+        height: 40px;
+        width: 150px;
+        font-size: 0.8em;
     }
 
  }
