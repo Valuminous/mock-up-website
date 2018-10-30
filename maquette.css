@@ -86,6 +86,7 @@ header {
 
 .formulaire textarea {
     height:210px;
+    padding-left: 5px;
 }
 
 .formulaire {
@@ -117,6 +118,7 @@ header {
 
 .input input {
     height: 45px;
+    padding-left:5px;
 }
 
 .input button {
