@@ -47,6 +47,86 @@ header {
     text-shadow: 5px 5px 5px rgb(68, 68, 68);
 }
 
+/* section séparateurs */
+
+.separator {
+    background-color: white;
+    width: 85%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.favorite {
+    color: #d73351;
+    text-align: right;
+}
+
+.font {
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #7b7b7b;
+
+}
+
+.fontalt {
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #7b7b7b;
+
+}
+
+.energy {
+    font-size: 0.4em;
+    font-weight: bold;
+
+}
+
+.rectangle {
+    background-color: #d73351;
+    color: white;
+    text-align: left;
+}
+
+/* section produit */
+
+.order {
+    background: url(media/fit3.jpg) no-repeat center;
+    background-size: cover;
+  }
+
+.vk {
+    color: #d73351;
+    font-size: 6em;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #7b7b7b;
+    text-align: center;
+}
+
+.lg-text {
+    color: white;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sm-text {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ordering {
+    color: white;
+    font-size: 2.3em;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 40px 10px 40px;
+    border-color: white;
+  
+}
+
+
 /* Présentation */
 
 .weight {
@@ -146,9 +226,24 @@ header {
 }
 
 
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
 
-@media (min-width: 992px) and (max-width: 1199px) {  }
+ }
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .font {
+        font-size: 3em;    
+    }
+    
+    .energy {
+        font-size: 0.4em;
+    }
+
+    .fontalt {
+        font-size: 2.4em;
+    
+    }
+ }
 
 @media (min-width: 768px) and (max-width: 991px) { 
 
@@ -162,6 +257,19 @@ header {
 
     .formulaire .container {
         width: 75%;
+    }
+
+    .font {
+        font-size: 2.5em;    
+    }
+    
+    .energy {
+        font-size: 0.4em;    
+    }
+
+    .fontalt {
+        font-size: 1.8em;
+    
     }
 
  }
@@ -178,6 +286,20 @@ header {
 
     .formulaire .container {
         width: 75%;
+    }
+
+    .font {
+        font-size: 1.8em;
+        text-shadow: 3px 3px 3px #7b7b7b;
+    }
+    
+    .energy {
+        font-size: 0.4em;    
+    }
+
+    .fontalt {
+        font-size: 1.2em;
+        text-shadow: 3px 3px 3px #7b7b7b;
     }
 
  }
@@ -239,6 +361,40 @@ header {
         height: 40px;
         width: 150px;
         font-size: 0.8em;
+    }
+
+    .bar1 {
+        transform: scale(0.7, 0.7);
+    }
+
+    .ordering {
+        font-size: 1.5em;
+    }
+
+    .vk {
+        font-size: 4em;
+    }
+    
+    .lg-text {
+        font-size: 1.8em;
+    }
+    
+    .sm-text {
+        font-size: 1em;
+    }
+
+    .font {
+        font-size: 1.1em;
+        text-shadow: 2px 2px 2px #7b7b7b;
+    }
+    
+    .energy {
+        font-size: 0.4em;    
+    }
+
+    .fontalt {
+        font-size: 0.8em;
+        text-shadow: 2px 2px 2px #7b7b7b;
     }
 
  }
