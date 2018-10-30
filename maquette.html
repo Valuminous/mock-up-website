@@ -14,15 +14,19 @@
 </head>
 
 <body>
-  <header class="container-fluid">
-    <nav class="nav">
-      <div class="row">
-        <div class="col-6"></div>
-        <div class="col-6"></div>
+
+  <header class="d-flex flex-column">
+    <nav class="nav d-flex w-100">
+      <div class="row w-100 d-flex justify-content-between justify-content-sm-around justify-content-md-around justify-content-lg-around justify-content-xl-around">
+        <div class="col-5 d-flex align-items-center">
+          <img class="logo" src="media/logoprojet.png" alt="logo">
+        </div>
+        <div class="col-5 d-flex align-items-center justify-content-end menu"><a href="#">Accueil</a> | <a href="#">Product</a>
+          | <a href="#">About</a></div>
       </div>
     </nav>
-    <div class="welcome">
-
+    <div class="welcome d-flex h-100 align-items-center justify-content-center">
+      Welcome To The Energy
     </div>
   </header>
 
@@ -38,36 +42,62 @@
     </div>
   </section>
 
-  <section class="container-fluid presentation">
+  <section class="presentation d-flex h-100">
     <div class="separator"></div>
-    <div class="container">
-      <div class="yellow"></div>
-      <div class="yellow"></div>
+    <div class="weight w-100">
+      <div class="container d-flex h-100 flex-column align-items-center justify-content-around">
+        <div class="yellow d-flex justify-content-around align-items-center text-center flex-column">
+          <p>Weight gain</p>
+          <p>Mass gainer</p>
+          <p>Whey protein</p>
+          <p>Recovery</p>
+        </div>
+        <div class="yellow d-flex justify-content-around align-items-center text-center flex-column">
+          <p>Weight loss</p>
+          <p>Isolate</p>
+          <p>Endurance</p>
+          <p>Recovery</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="container-fluid formulaire">
-      <div class="separator"></div>
-      <div class="container">
-        <div class="contact"></div>
-        <div class="input"></div>
-        <div class="send"></div>
-      </div>
+    <div class="separator"></div>
+    <div class="container d-flex flex-column justify-content-center">
+      <div class="contact text-center">Contact us<br>|</div>
+      <form class="" action="">
+        <div class="input d-flex flex-column justify-content-center align-items-center h-100">
+          <label class="align-self-start pt-2" for="name">Name</label>
+          <input name="name" type="text">
+          <label class="align-self-start pt-2" for="email">Email</label>
+          <input name="email" type="text">
+          <label class="align-self-start pt-2" for="message">Message</label>
+          <textarea name="message" id=""></textarea>
+          <button class="mt-5">Send your message</button>
+        </div>
+      </form>
+    </div>
 
   </section>
 
 
-  <footer class="container-fluid">
-    <div class="follow"></div>
-    <div class="social">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3"></div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3"></div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3"></div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3"></div>
+  <footer class="">
+    <div class="follow text-center mt-4 mt-sm-5">Follow us<br>|</div>
+    <div class="social container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-12 col-sm-12 col-md-5 col-lg-2 col-xl-2 d-flex justify-content-center fb"><img src="media/fb.png"
+            width="70px" height="70px" alt="facebook"></div>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-2 col-xl-2 d-flex justify-content-center tw"><img src="media/twitter.png"
+            width="80px" height="60px" alt="twitter"></div>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-2 col-xl-2 d-flex justify-content-center insta"><img src="media/instagram.png"
+            width="70px" height="70px" alt="instagram"></div>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-2 col-xl-2 d-flex justify-content-center yt"><img src="media/yt.png"
+            width="70px" height="50px" alt="youtube"></div>
       </div>
     </div>
-    <div class="copyright"></div>
+    <div class="copyright text-center d-flex justify-content-center align-items-center">Copyright all rights reserved ©
+      2018</div>
   </footer>
 
 
